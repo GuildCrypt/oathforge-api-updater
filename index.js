@@ -12,6 +12,7 @@ const UpdateQueue = require('./lib/UpdateQueue')
 const targetElapsed = 15000
 
 start('mainnet', 'a307b905140c82b37f2d7d806ef9d8858d30ac87')
+start('mainnet', 'd7b4a7d2bb0ffa29a7d2f17cd6b7e176c48060a6')
 start('rinkeby', '8466730da0d53ceec0d1f564dd462713e676fca6')
 
 function start(network, oathForgeAddressHexUnprefixed) {
